@@ -1,16 +1,36 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <title>Accessible Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+  <!-- Navigation Section -->
+  <nav role="navigation">
+    <ul role="list">
+      <li role="listitem"><a href="#home">Home</a></li>
+      <li role="listitem"><a href="#about">About</a></li>
+      <li role="listitem"><a href="#projects">Projects</a></li>
+    </ul>
+  </nav>
+
+  <!-- Heading -->
+  <h1 role="heading">My Accessible Portfolio</h1>
+
+  <!-- Image with ARIA role -->
+  <img role="img" src="https://picsum.photos/300/200" alt="Portfolio banner image">
+
+  <!-- Brief Description -->
+  <p>Welcome to my portfolio! I’m a passionate web developer who focuses on creating inclusive, accessible, and visually appealing websites for everyone.</p>
+
+  <!-- Skills or Highlights List -->
+  <ul role="list">
+    <li role="listitem">Frontend Development</li>
+    <li role="listitem">Accessibility Design</li>
+    <li role="listitem">Responsive Web Applications</li>
+  </ul>
 
 </body>
-
 </html>
